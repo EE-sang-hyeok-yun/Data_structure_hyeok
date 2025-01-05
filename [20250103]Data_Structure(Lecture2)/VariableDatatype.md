@@ -8,6 +8,6 @@
 
 [4. 부동소수점](./explanation/FloatingPoint.md)
 
-[5. 문자형](./xplanation/Character.md)
+[5. 문자형](./explanation/Character.md)
 
 [6. Overflow](./explanation/Overflow.md)
