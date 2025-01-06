@@ -20,4 +20,6 @@
 
 ## 정리한 내용
 
-[변수와 자료형](./[20250103]Data_Structure(Lecture2)/VariableDatatype.md)
+[1. 변수와 자료형](./[20250103]Data_Structure(Lecture2)/VariableDatatype.md)
+
+[2. 포인터](./[20250106]Data_Structure(Lecture3)/Pointer.md)
