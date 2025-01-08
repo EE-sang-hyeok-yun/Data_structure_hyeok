@@ -4,7 +4,7 @@
 
 [2. 메모리](./explanation/Memory.md)
 
-[3. 주소 관련 연산자](./explanation/Address.md)
+[3. 참조와 역참조](./explanation/RefDeref.md)
 
 [4. 포인터 연산](./explanation/PointerOp.md)
 
