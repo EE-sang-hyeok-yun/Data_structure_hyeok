@@ -2,7 +2,7 @@
 
 [1. 포인터란](./explanation/PointerIntro.md)
 
-[2. 메모리](./explanation/Memory.md)
+[2. 메모리 주소](./explanation/Memory.md)
 
 [3. 참조와 역참조](./explanation/RefDeref.md)
 
