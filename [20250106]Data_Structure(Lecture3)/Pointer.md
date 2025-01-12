@@ -11,3 +11,7 @@
 [5. 배열과 포인터](./explanation/Arrange.md)
 
 [6. 함수에서의 사용](./explanation/Function.md)
+
+[7. 이중 포인터](./explanation/DoublePointer.md)
+
+[8. 포인터 배열과 배열 포인터](./explanation/PointArr.md)
