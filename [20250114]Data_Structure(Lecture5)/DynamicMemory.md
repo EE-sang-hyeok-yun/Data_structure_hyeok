@@ -4,4 +4,4 @@
 
 ### [2. 동적 메모리 함수](./explanation/DynFunc.md)
 
-### [3. 구조체와 동적 메모리](./explanation/DynStruct.md)
+### [3. 동적 메모리 활용](./explanation/DynStruct.md)
