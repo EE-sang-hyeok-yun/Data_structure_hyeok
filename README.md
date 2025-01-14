@@ -20,8 +20,10 @@
 
 ## 정리한 내용
 
-[1. 변수와 자료형](./[20250103]Data_Structure(Lecture2)/VariableDatatype.md)
+### [1. 변수와 자료형](./[20250103]Data_Structure(Lecture2)/VariableDatatype.md)
 
-[2. 포인터](./[20250106]Data_Structure(Lecture3)/Pointer.md)
+### [2. 포인터](./[20250106]Data_Structure(Lecture3)/Pointer.md)
 
-[3. 구조체](./[20250110]Data_Structure(Lecture4)/Structure.md)
+### [3. 구조체](./[20250110]Data_Structure(Lecture4)/Structure.md)
+
+### [4. 동적 메모리](./[20250114]Data_Structure(Lecture5)/DynamicMemory.md)
