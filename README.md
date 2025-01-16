@@ -27,3 +27,8 @@
 ### [3. 구조체](./[20250110]Data_Structure(Lecture4)/Structure.md)
 
 ### [4. 동적 메모리](./[20250114]Data_Structure(Lecture5)/DynamicMemory.md)
+
+### [5. 자료구조와 알고리즘](./[20250116]Data_Structure(Lecture6)/DataStructAlgm.md)
+
+### [6. 리스트](./[20250116]Data_Structure(Lecture7)/List.md)
+
