@@ -31,3 +31,5 @@
 ### [5. 자료구조와 알고리즘](./[20250116]Data_Structure(Lecture6)/DataStructAlgm.md)
 
 ### [6. 리스트](./[20250116]Data_Structure(Lecture7)/List.md)
+
+### [7. 스택](./[20250120]Data_Structure(Lecture8)/Stack.md)
