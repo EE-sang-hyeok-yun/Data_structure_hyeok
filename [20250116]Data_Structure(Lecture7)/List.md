@@ -4,3 +4,4 @@
 
 ### [2. Array List Type](./explanation/ArrayListType.md)
 
+### [3. Linked List Type](./explanation/LinkedListType.md)
