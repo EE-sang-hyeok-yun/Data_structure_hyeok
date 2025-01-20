@@ -2,7 +2,7 @@
 
 ## creatNode
 
-### 문법
+### 코드
 
 ```c
 listNode* creatNode(element data)
@@ -37,7 +37,7 @@ listNode* creatNode(element data)
 
 ## insertNode
 
-### 문법
+### 코드
 
 ```c
 void insertNode(listNode** preHead, listNode* pre, listNode* newNode)
@@ -77,7 +77,7 @@ void insertNode(listNode** preHead, listNode* pre, listNode* newNode)
 
 ## removeNode
 
-### 문법
+### 코드
 
 ```c
 void removeNode(listNode** preHead, listNode* pre, listNode* removeNode)
@@ -110,7 +110,7 @@ void removeNode(listNode** preHead, listNode* pre, listNode* removeNode)
 
 ## displayNode
 
-### 문법
+### 코드
 
 ```c
 void displayNode(listNode* head)
@@ -142,7 +142,7 @@ void displayNode(listNode* head)
 
 ## displayRecur
 
-### 문법
+### 코드
 
 ```c
 void displayRecur(listNode* head)
@@ -171,7 +171,7 @@ void displayRecur(listNode* head)
 
 ## search
 
-### 문법
+### 코드
 
 ```c
 listNode* search(listNode* head, element x)
@@ -201,7 +201,7 @@ listNode* search(listNode* head, element x)
 
 ## concat
 
-### 문법
+### 코드
 
 ```c
 listNode* concat(listNode* head1, listNode* head2)
@@ -237,7 +237,7 @@ listNode* concat(listNode* head1, listNode* head2)
 
 ## init
 
-### 문법
+### 코드
 
 ```c
 void init(listType* list)
@@ -256,7 +256,7 @@ void init(listType* list)
 
 ## isEmpty
 
-### 문법
+### 코드
 
 ```c
 bool isEmpty(listType* list)
@@ -276,7 +276,7 @@ bool isEmpty(listType* list)
 
 ## isInList
 
-### 문법
+### 코드
 
 ```c
 bool isInList(listType* list, element item)
@@ -301,7 +301,7 @@ bool isInList(listType* list, element item)
 
 ## getLength
 
-### 문법
+### 코드
 
 ```c
 int getLength(listType* list)
@@ -316,7 +316,7 @@ int getLength(listType* list)
 
 ## getNodeAt
 
-### 문법
+### 코드
 
 ```c
 listNode* getNodeAt(listType* list, int pos)
@@ -336,7 +336,7 @@ listNode* getNodeAt(listType* list, int pos)
 
 ## add
 
-### 문법
+### 코드
 
 ```c
 void add(listType* list, int pos, element item)
@@ -368,7 +368,7 @@ void add(listType* list, int pos, element item)
 
 ## del
 
-### 문법
+### 코드
 
 ```c
 void del(listType* list, int pos)
@@ -406,7 +406,7 @@ void del(listType* list, int pos)
 
 ## getEntry
 
-### 문법
+### 코드
 
 ```c
 element getEntry(listType* list, int pos)
@@ -433,7 +433,7 @@ element getEntry(listType* list, int pos)
 
 ## main
 
-### 문법
+### 코드
 
 ```c
 int main(void) 
