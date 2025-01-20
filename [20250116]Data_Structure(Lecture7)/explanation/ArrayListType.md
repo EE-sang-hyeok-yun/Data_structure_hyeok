@@ -21,7 +21,7 @@ typedef struct
     - `arr[MAX_SIZE]`: 데이터를 저장하는 배열.
     - `length`: 현재 리스트에 저장된 데이터의 개수.
 
-### `void init(ArrayList* list)`
+### init
 
 ```c
 void init(ArrayList* list)
@@ -35,7 +35,7 @@ void init(ArrayList* list)
 - 구현: `length` 값을 0으로 설정하여 리스트를 비움.
 - 사용: ArrayList를 새로 선언하거나 재사용할 때 사용.
 
-### `bool isEmpty(ArrayList* list)`
+### isEmpty
 
 ```c
 bool isEmpty(ArrayList* list)
@@ -48,7 +48,7 @@ bool isEmpty(ArrayList* list)
 - 구현: `length` 값이 0이면 참(`true`)을 반환.
 - 사용: 리스트에 데이터가 없는 상태를 확인할 때.
 
-### `bool isFull(ArrayList* list)`
+### isFull
 
 ```c
 bool isFull(ArrayList* list)
@@ -61,7 +61,7 @@ bool isFull(ArrayList* list)
 - 구현: `length` 값이 `MAX_SIZE`와 같으면 참(`true`)을 반환.
 - 사용: 리스트에 더 이상 데이터를 추가할 수 없는 상태를 확인할 때.
 
-### `bool add(ArrayList* list, int pos, element item)`
+### add
 
 ```c
 int add(ArrayList* list, int pos, element item)
@@ -112,7 +112,7 @@ graph LR
     - `0`: 성공적으로 삽입.
     - `1`: 삽입 실패 (리스트가 꽉 찼거나, 위치가 유효하지 않음).
 
-### `element del(ArrayList* list, int pos)`
+### del
 
 ```c
 element del(ArrayList* list, int pos)
@@ -190,7 +190,7 @@ typedef struct
 - `length`: 현재 리스트에 저장된 데이터의 개수.
 - `MAX_SIZE`: 리스트가 저장할 수 있는 최대 데이터 개수.
 
-### `init(&list, listSize)`
+### init
 
 ```c
 void init(ArrayList* list, int listSize)
@@ -211,7 +211,7 @@ void init(ArrayList* list, int listSize)
     2. `MAX_SIZE`를 `listSize`로 설정.
     3. `length`를 0으로 초기화하여 리스트를 빈 상태로 설정.
 
-### `isEmpty(&list)`
+### isEmpty
 
 ```c
 bool isEmpty(ArrayList* list)
@@ -225,7 +225,7 @@ bool isEmpty(ArrayList* list)
     - `true`: 리스트가 비어 있음.
     - `false`: 리스트에 데이터가 있음.
 
-### `isFull(&list)`
+### isFull
 
 ```c
 bool isFull(ArrayList* list)
@@ -239,7 +239,7 @@ bool isFull(ArrayList* list)
     - `true`: 리스트가 가득 참.
     - `false`: 리스트에 빈 공간이 있음.
 
-### `append(&list, item)`
+### append
 
 ```c
 void append(ArrayList* list, element item)
@@ -268,7 +268,7 @@ void append(ArrayList* list, element item)
     3. `length`를 1 증가.
     4. 꽉 찼다면 오류 메시지를 출력하고 프로그램 종료.
 
-### `insert(&list, pos, item)`
+### insert
 
 ```c
 void insert(ArrayList* list, int pos, element item)
@@ -312,7 +312,7 @@ void insert(ArrayList* list, int pos, element item)
     5. `length`를 1 증가.
     6. 조건을 만족하지 못하면 오류 메시지를 출력하고 종료.
 
-### `pop(&list)`
+### pop
 
 ```c
 element pop(ArrayList* list)
@@ -346,7 +346,7 @@ element pop(ArrayList* list)
     5. 제거된 요소를 반환.
     6. 리스트가 비어 있다면 오류 메시지를 출력하고 종료.
 
-### `del(&list, pos)`
+### del
 
 ```c
 element del(ArrayList* list, int pos)
@@ -391,7 +391,7 @@ element del(ArrayList* list, int pos)
     6. 제거된 데이터를 반환.
     7. 조건을 만족하지 못하면 오류 메시지를 출력하고 종료.
 
-### `disp(&list)`
+### disp
 
 ```c
 void disp(ArrayList* list)
