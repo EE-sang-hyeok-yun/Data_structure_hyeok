@@ -248,3 +248,35 @@ Popped: 50
 Popped: 40
 Popped: 10
 ```
+
+## 동적 할당을 통한 구현
+
+### Object
+
+```c
+typedef int element;
+typedef struct
+{
+    element *stack;
+    int MAX_SIZE;
+    int top;
+} ArrayStack;
+```
+
+### init
+
+```c
+void init(ArrayStack* sp, int stackSize)
+{
+    element* stack = (element*)malloc(stackSize * sizeof(element));
+    if (stack == NULL)
+    {
+        printf("Error: Memory Allocation Error\n");
+        exit(EXIT_FAILURE);
+    }
+    sp->stack = stack;
+    sp->MAX_SIZE = stackSize;
+    sp->top = -1;
+    return;
+}
+```
