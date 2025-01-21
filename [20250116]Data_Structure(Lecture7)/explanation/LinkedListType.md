@@ -1,5 +1,55 @@
 # Linked List Type
 
+## stackNode
+
+### 코드
+
+```c
+typedef int element;
+typedef struct listNode
+{
+    element data;
+    struct listNode *link;
+} listNode;
+```
+
+### 설명
+
+- 구조체 정의:
+    - `listNode`는 연결 리스트의 하나의 노드를 나타낸다.
+- 구성 요소:
+    - `element data`: 노드가 저장하는 데이터. 여기서 `typedef int element`로 정의되어 있으므로 정수형 데이터를 저장한다.
+    - `struct listNode *link`: 다음 노드를 가리키는 포인터. 연결 리스트의 다음 요소를 연결하는 역할을 한다.
+- 연결 리스트:
+    - 여러 `listNode`가 `link`를 통해 연결되어 리스트를 형성한다.
+
+## stackType
+
+### 코드
+
+```c
+typedef struct
+{
+    listNode *head;
+    int length;
+} listType;
+```
+
+### 설명
+
+- 구조체 정의:
+    - `listType`은 연결 리스트의 전체 구조를 나타낸다.
+- 구성 요소:
+    - `listNode *head`: 연결 리스트의 첫 번째 노드를 가리키는 포인터.
+    - `int length`: 리스트에 포함된 노드의 개수를 나타내는 정수 값.
+- 리스트의 동작:
+    - `head`를 통해 리스트의 첫 번째 노드에 접근 가능.
+    - 삽입 및 삭제 연산은 `head`를 기준으로 수행되며, 노드의 연결 상태를 변경.
+    - `length`는 리스트의 노드 개수를 추적하여 리스트의 상태를 관리.
+- 유연성:
+    - 연결 리스트 기반으로 구현되었으므로 동적 메모리를 사용하여 필요한 만큼 노드를 추가하거나 제거할 수 있음.
+    - 노드의 개수에 제한이 없으며, 리스트의 길이를 효율적으로 관리 가능.
+
 ## creatNode
 
 ### 코드
