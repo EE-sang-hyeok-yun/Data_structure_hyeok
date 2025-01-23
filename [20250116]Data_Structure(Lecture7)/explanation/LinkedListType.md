@@ -285,6 +285,52 @@ listNode* concat(listNode* head1, listNode* head2)
 - `node->link = head2`: 첫 번째 리스트의 마지막 노드의 링크를 두 번째 리스트의 헤드로 연결한다.
 - `return head1`: 연결된 리스트의 첫 번째 노드를 반환한다.
 
+## reverse
+
+### 코드
+
+```c
+listNode* reverse(listNode* head)
+{
+	listNode* previous = NULL;
+	listNode* current = head;
+	listNode* next = NULL;
+
+	while (current != NULL)
+	{
+		next = current->link; 
+		// current는 다음 노드를 가리킨다
+		current->link = previous; 
+		// next를 가리키던 link를 previous로 변경
+		// 역방향이다
+		previous = current;
+		// 다음 노드로 이동
+		current = next;
+		// 다음 노드로 이동
+	}
+	head = previous;
+	// 가장 마지막 노드를 head가 가리킨다
+	// 리스트가 반전되었다.
+	return head;
+}
+```
+
+### 코드의 흐름
+
+1. 초기화:
+    - `previous`: 역방향 리스트를 형성하는 데 필요한 이전 노드를 저장. 초기값은 `NULL`.
+    - `current`: 현재 작업 중인 노드를 가리킴. 초기값은 입력된 `head`.
+    - `next`: 리스트 순회를 위해 다음 노드를 저장. 초기값은 `NULL`.
+2. 루프 구조:
+    - 조건: `current`가 `NULL`이 아닐 때까지 반복.
+    - `next = current->link`: 현재 노드의 다음 노드를 임시 저장.
+    - `current->link = previous`: 현재 노드의 링크를 이전 노드로 변경하여 역방향으로 설정.
+    - `previous = current`: `previous`를 현재 노드로 이동.
+    - `current = next`: `current`를 다음 노드로 이동.
+3. 마무리:
+    - 모든 노드의 링크가 반전된 후, `head`는 마지막 노드를 가리키게 된다.
+    - 마지막 노드였던 `previous`를 새로운 리스트의 시작 노드로 반환.
+
 ## init
 
 ### 코드
