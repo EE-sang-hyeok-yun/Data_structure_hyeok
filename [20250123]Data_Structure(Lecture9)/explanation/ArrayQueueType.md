@@ -1,4 +1,4 @@
-# **Array Queue Type**
+# Array Queue Type
 
 ## Object
 
@@ -190,6 +190,8 @@ int main(void)
 	return 0;
 }
 ```
+
+### 결과
 
 ```
 enqueue: 10
